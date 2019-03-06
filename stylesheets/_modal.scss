@@ -1,0 +1,17 @@
+.modal {
+	opacity: 0;
+	pointer-events: none;
+	position: fixed;
+	height: 100vh;
+	width: 100vw;
+	background-color: var(--secondary-color);
+	transition: opacity .2s ease-in-out;
+
+	h1 {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		font-size: 68px;
+	}
+}
