@@ -2,6 +2,7 @@ body {
 	color: var(--secondary-color);
 	background-color: var(--primary-color);
 	font-family: var(--copy-font);
+	transition: all .2s ease-in-out;
 }
 
 button {
