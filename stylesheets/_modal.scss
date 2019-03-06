@@ -9,17 +9,6 @@
 	background-color: var(--secondary-color);
 	transition: opacity .2s ease-in-out;
 
-	&--open {
-		opacity: 1;
-		pointer-events: all;
-	}
-
-	button {
-		position: absolute;
-		top: 20px;
-		right: 20px;
-	}
-
 	h1 {
 		position: absolute;
 		top: 50%;
