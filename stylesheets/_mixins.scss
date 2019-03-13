@@ -1,0 +1,11 @@
+@mixin oneimageperrow {
+    @media (max-width: 500px) {
+        @content;
+    }
+}
+
+@mixin twoimagesperrow {
+    @media (min-width: 501px) and (max-width: 850px) {
+        @content;
+    }
+}

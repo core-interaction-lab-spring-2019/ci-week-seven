@@ -1,0 +1,114 @@
+.gallery {
+	//gallery CSS goes here
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+	&__item {
+		width: calc(25% - 12px);
+		flex: 0 0 auto;
+		background-size: 100%;
+		background-repeat: no-repeat;
+		background-position: center;
+		filter: grayscale(70%);
+		margin-bottom: 13px;
+		// background-color: var(--tertiary-color);
+		transition: all .2s ease-in-out;
+		overflow: hidden;
+		cursor: pointer;
+
+		&:hover {
+			filter: grayscale(0.1);
+			background-size: 108%;
+		}
+
+		// @include oneimageperrow{
+		// 	width: 80%;
+		// }
+
+		div{
+			padding-bottom: 66.25%;
+		}
+
+		&:nth-child(1) {
+			background-image: url(../images1/01.jpg);
+		}
+
+		&:nth-child(2) {
+			background-image: url(../images1/02.jpg);
+		}
+
+		&:nth-child(3) {
+			background-image: url(../images1/03.jpg);
+		}
+
+		&:nth-child(4) {
+			background-image: url(../images1/04.jpg);
+		}
+
+		&:nth-child(5) {
+			background-image: url(../images1/05.jpg);
+		}
+
+		&:nth-child(6) {
+			background-image: url(../images1/06.jpg);
+		}
+
+		&:nth-child(7) {
+			background-image: url(../images1/07.jpg);
+		}
+		
+		&:nth-child(8) {
+			background-image: url(../images1/08.jpg);
+		}
+
+		&:nth-child(9) {
+			background-image: url(../images1/09.jpg);
+		}
+
+		&:nth-child(10) {
+			background-image: url(../images1/10.jpg);
+		}
+
+		&:nth-child(11) {
+			background-image: url(../images1/11.jpg);
+		}
+
+		&:nth-child(12) {
+			background-image: url(../images1/12.jpg);
+		}
+
+		&:nth-child(13) {
+			background-image: url(../images1/13.jpg);
+		}
+
+		&:nth-child(14) {
+			background-image: url(../images1/14.jpg);
+		}
+
+		&:nth-child(15) {
+			background-image: url(../images1/15.jpg);
+		}
+
+		&:nth-child(16) {
+			background-image: url(../images1/16.jpg);
+		}
+
+		&:nth-child(17) {
+			background-image: url(../images1/17.jpg);
+		}
+
+		&:nth-child(18) {
+			background-image: url(../images1/18.jpg);
+		}
+
+		&:nth-child(19) {
+			background-image: url(../images1/19.jpg);
+		}
+
+		&:nth-child(20) {
+			background-image: url(../images1/20.jpg);
+		}
+
+	}
+}
